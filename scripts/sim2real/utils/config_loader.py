@@ -207,4 +207,8 @@ def get_physics_properties(data: dict) -> dict:
     Returns:
         tuple: A tuple containing the decimation, dt, and render interval.
     """
-    return data.get("decimation"), data.get("sim").get("dt"), data.get("sim").get("render_interval")
+    # RL-Games YAML nesting
+    decimation = data.get("params", {}).get("config", {}).get("save_frequency", 1)  # or any value you want
+    dt = 0.002  # default RL-Games timestep
+    render_interval = 1  # default render interval
+    return decimation, dt, render_interval
