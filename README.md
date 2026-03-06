@@ -19,7 +19,6 @@ For personal reference:
 # 🦾 Kinova Gen3 RL & Sim2Real Toolkit
 
 ## Overview
-
 This repository provides a modular framework for training reinforcement learning (RL) agents on the **Kinova Gen3** robot using **Isaac Lab**, and deploying trained models either in **Isaac Sim**, or on the **real robot** via ROS2.
 
 Built as a standalone Isaac Lab extension, it allows isolated development.
