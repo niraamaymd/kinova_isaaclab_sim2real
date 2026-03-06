@@ -291,7 +291,7 @@
   </joint>
   <link name="end_effector_link"/>
   <joint name="end_effector" type="fixed">
-    <origin rpy="3.14159265358979 1.09937075168372E-32 3.14159265358979" xyz="0 0 -0.0615250000000001"/>
+    <origin rpy="0 0 0" xyz="0 0 -0.0615250000000001"/>
     <parent link="bracelet_link"/>
     <child link="end_effector_link"/>
     <axis xyz="0 0 0"/>
