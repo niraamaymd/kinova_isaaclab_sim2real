@@ -11,7 +11,7 @@ params:
     e_clip: 0.2
     entropy_coef: 0.01
     env_name: rlgpu
-    full_experiment_name: 2026-03-04_02-19-44
+    full_experiment_name: 2026-03-06_19-09-34
     gamma: 0.99
     grad_norm: 1.0
     horizon_length: 24
