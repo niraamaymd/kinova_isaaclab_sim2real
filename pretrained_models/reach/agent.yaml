@@ -11,7 +11,7 @@ params:
     e_clip: 0.2
     entropy_coef: 0.01
     env_name: rlgpu
-    full_experiment_name: 2026-03-06_20-37-22
+    full_experiment_name: 2026-03-10_16-05-05
     gamma: 0.99
     grad_norm: 1.0
     horizon_length: 24
@@ -37,7 +37,7 @@ params:
     schedule_type: legacy
     score_to_win: 10000
     tau: 0.95
-    train_dir: /home/robotics/niraamay/IsaacLab/logs/rl_games/reach_gen3
+    train_dir: /home/rig/niraamay/kinova_isaaclab_sim2real_6dof/logs/rl_games/reach_gen3
     truncate_grads: true
     value_bootstrap: true
   env:

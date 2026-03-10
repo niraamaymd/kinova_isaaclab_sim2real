@@ -289,7 +289,13 @@
     <axis xyz="0 0 1"/>
     <limit effort="9" velocity="1.2218"/>
   </joint>
-  <link name="end_effector_link"/>
+  <link name="end_effector_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="0.001"/>
+      <inertia ixx="1e-06" ixy="0" ixz="0" iyy="1e-06" iyz="0" izz="1e-06"/>
+    </inertial>
+  </link>
   <joint name="end_effector" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 -0.0615250000000001"/>
     <parent link="bracelet_link"/>

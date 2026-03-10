@@ -4,8 +4,8 @@ from rl_games.algos_torch import model_builder
 
 def export_policy():
     # 1. Paths
-    agent_cfg_path = "/home/robotics/niraamay/kinova_isaaclab_sim2real/pretrained_models/reach/agent.yaml"
-    checkpoint_path = "/home/robotics/niraamay/kinova_isaaclab_sim2real/pretrained_models/reach/policy.pth"
+    agent_cfg_path = "/home/rig/niraamay/kinova_isaaclab_sim2real_6dof/pretrained_models/reach/agent.yaml"
+    checkpoint_path = "/home/rig/niraamay/kinova_isaaclab_sim2real_6dof/pretrained_models/reach/policy.pth"
     
     with open(agent_cfg_path, 'r') as f:
         agent_cfg = yaml.load(f, Loader=yaml.SafeLoader)
